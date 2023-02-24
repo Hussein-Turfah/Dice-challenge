@@ -1,14 +1,17 @@
 window.onload = function(){
-var dice = document.getElementsByClassName("dice");
+var dice1 = document.getElementsByClassName("dice1");
+var dice2 = document.getElementsByClassName("dice2");
+
 document.getElementById('refresh').addEventListener('mouseover',function(){
   location.reload()
 }
 )
-const dice_number = Math.floor(Math.random() * dice.length);
-console.log(dice_number + 1)
-for (var i = 0; i < dice.length; i++){
-  dice[i].style.display = 'none'
+const dice1_number = Math.floor(Math.random() * dice1.length);
+console.log(dice1_number + 1)
+for (var i = 0; i < dice1.length; i++){
+  dice1[i].style.display = 'none'
 } 
-dice[dice_number].style.display = 'block'
+dice1[dice1_number].style.display = 'block'
 console.log('hello working')
+
 }
