@@ -1,0 +1,40 @@
+.container{
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  height: 100vh;
+}
+.dice{
+  padding: 4px;  
+  background-color: brown;
+  height: 160px;
+  width: 160px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+} 
+.column1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.middle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.column2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.circle{
+  padding: 5px;
+  background-color: white;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
