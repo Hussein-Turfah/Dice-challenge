@@ -2,7 +2,7 @@ window.onload = function(){
 var dice1 = document.getElementsByClassName("dice1");
 var dice2 = document.getElementsByClassName("dice2");
 
-document.getElementById('refresh').addEventListener('mouseover',function(){
+document.getElementById('refresh').addEventListener('click',function(){
   location.reload()
 }
 )
@@ -23,6 +23,14 @@ for (var i = 0; i < dice2.length; i++){
 dice2[dice2_number].style.display = 'block'
 console.log('hello working')
 
-
-
+if(dice1_number<dice2_number){
+document.getElementById('result').innerHTML = "Player 2 Wins!😝"
+}
+else if(dice1_number==dice2_number){
+  document.getElementById('result').innerHTML = "Draw!🥺"
+  }
+  else{
+    document.getElementById('result').innerHTML = "Player 1 Wins!😒"
+    }
+      
 }
