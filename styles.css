@@ -1,40 +1,34 @@
 .container{
   display: flex;
-  align-items:center;
-  justify-content: space-evenly;
-  flex-direction: row;
-  height: 100vh;
-}
-.dice{
-  padding: 4px;  
-  background-color: brown;
-  height: 160px;
-  width: 160px;
-  border-radius: 15px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-} 
-.column1{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-.middle{
-  display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction:column;
+  background-color: rgb(0, 132, 255);
+  color: white;
 }
-.column2{
+.dicecontainer{
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: fit-content;
+  padding-bottom: 50px;
+  border: 1px black dashed;
 }
-
-.circle{
-  padding: 5px;
-  background-color: white;
-  border-radius: 50%;
-  height: 25px;
-  width: 25px;
+.dice1{
+  padding: 50px;
+}
+.dice2{
+  padding: 50px;
+}
+.pname{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+#refresh{
+  padding: 15px 30px;
+  font-size: 15px;
 }
