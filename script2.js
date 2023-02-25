@@ -22,4 +22,7 @@ for (var i = 0; i < dice2.length; i++){
 } 
 dice2[dice2_number].style.display = ''
 console.log('hello working')
+
+
+
 }
