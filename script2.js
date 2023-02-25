@@ -11,7 +11,7 @@ console.log(dice1_number + 1)
 for (var i = 0; i < dice1.length; i++){
   dice1[i].style.display = 'none'
 } 
-dice1[dice1_number].style.display = 'block'
+dice1[dice1_number].style.display = ''
 console.log('hello working')
 
 
@@ -20,6 +20,6 @@ console.log(dice2_number + 1)
 for (var i = 0; i < dice2.length; i++){
   dice2[i].style.display = 'none'
 } 
-dice2[dice2_number].style.display = 'block'
+dice2[dice2_number].style.display = ''
 console.log('hello working')
 }
